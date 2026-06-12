@@ -59,7 +59,7 @@ word = getchar();
 printf("You've entered:");
 putchar(word);
 
-5. Arithmetic & Math Operators
+## 5. Arithmetic & Math Operators
 ASCII value of A is 65 and a is 97. Difference is 32.
 
 Use %x for hex and %o for octal.
@@ -84,14 +84,14 @@ Upper integer: ceil
 
 Lower integer: floor
 
-6. Assignment & Unary Operators
+## 6. Assignment & Unary Operators
 x+=5 is the same as x=x+5 (same logic for -, *, /, %)
 
 ++x to increment x by one BEFORE it is used
 
 x++ to increment x by one AFTER it is used (same for decrement)
 
-7. Relational & Conditional Operators
+## 7. Relational & Conditional Operators
 >, >=, <, <=, ==, !=
 
 Conditional control statement (if/else) start from 5.67
