@@ -58,6 +58,7 @@ printf("Enter a word:");
 word = getchar();
 printf("You've entered:");
 putchar(word);
+```
 
 ## 5. Arithmetic & Math Operators
 ASCII value of A is 65 and a is 97. Difference is 32.
