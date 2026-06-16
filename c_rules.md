@@ -61,13 +61,13 @@ putchar(word);
 ```
 
 ## 5. Arithmetic & Math Operators
-ASCII value of A is 65 and a is 97. Difference is 32.
+* ASCII value of A is 65 and a is 97. Difference is 32.
 
-Use %x for hex and %o for octal.
+* Use %x for hex and %o for octal.
 
-% is for leftover (modulus).
+* % is for leftover (modulus).
 
-Absolute: abs
+* Absolute: abs
 
 Square root: sqrt
 
@@ -77,7 +77,7 @@ Exponential: exp
 
 X raised to the power Y: pow(5,2) which is mainly 5^2
 
-Round figure: round
+* Round figure: round
 
 Remove decimal part: trunc
 
@@ -93,8 +93,9 @@ x+=5 is the same as x=x+5 (same logic for -, *, /, %)
 x++ to increment x by one AFTER it is used (same for decrement)
 
 ## 7. Relational & Conditional Operators
->,>=,<,<=,==,!=
-if, else statement should be inside{} for not rechecking below if condition is already met.
+* >,>=,<,<=,==,!=
+* if, else statement should be inside{} for not rechecking below if condition is already met.
+* switch keyword: switch, case, break, default
 
 ## 8. Logical Operator
 && = Logical AND
