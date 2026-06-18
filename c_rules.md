@@ -6,6 +6,8 @@
 * `\n` for new line
 * `\t` for space
 * Quote inside double quotation= ("Hello \\"World\\"");
+* `\t` for space
+* Quote inside double quotation= ("Hello \\"World\\"");
 
 ## 2. Character Types
 * `char (%c)` - (1 byte) - a, b, 1, 2
@@ -42,7 +44,7 @@ gets(name);
 printf("Hello,");
 puts(name);
 
-Using fgets for defining exactly how many characters:
+Using fgets(safe) for defining exactly how many characters:
 char name[50];
 printf("Enter your name:");
 fgets(name, sizeof(name), stdin);
