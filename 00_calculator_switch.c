@@ -22,6 +22,6 @@ int main()
         printf("The quotient is: %lf\n", num1 / num2);
         break;
     default:
-        printf("Invalid operator.\n");
+        printf("Invalid operator.");
     }
 }

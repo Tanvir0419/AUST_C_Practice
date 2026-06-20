@@ -5,7 +5,7 @@
 - For multiple line comment: `/*` for starting and `*/` for ending
 - `\n` for new line
 - `\t` for space
-- Quote inside double quotation= ("Hello \"World\"");
+- Quote inside double quotation= '("Hello \"World\");'
 
 ## 2. Character Types
 - `char (%c)` - (1 byte) - a, b, 1, 2
@@ -89,7 +89,7 @@ putchar(character);
 - x++ to increment x by one AFTER it is used (same for decrement)
 
 ## 7. Relational & Conditional Operators
-- '>',>=,<,<=,==,!=
+- '>','>=','<','<'=,'==','!='
 - ?(if true), :(else)
 - if, else statement should be inside{} for not rechecking below if condition is already met.
 
@@ -101,17 +101,17 @@ putchar(character);
 - the statement written above cases are never executed
 
 ## 9. Logical Operator
-- && = Logical AND
-- || = Logical OR
-- !  = Logical NOT
+- '&&' = Logical AND
+- '||' = Logical OR
+- '!'  = Logical NOT
 - [TRAP] Short-Circuiting: In (A && B), if A is False, C skips B entirely. In (A || B), if A is True, C skips B entirely
 
 ## 10.Bitwise Operator
-- & = Bitwise AND
-- | = Bitwise OR
-- ^ = Bitwise ExOR
-- ~ = Bitwise NOT
-- << = Left shift
+- '&'= Bitwise AND
+- '|' = Bitwise OR
+- '^' = Bitwise ExOR
+- '~' = Bitwise NOT
+- '<<' = Left shift
 - '>>' = Right shift
 
 
