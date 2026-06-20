@@ -22,9 +22,11 @@
 * Variable name can't start from a digit (1number - X)
 * For variable name, only `$` and `_` is valid to use
 * No gap space is allowed in a variable name
+* [TRAP] Always initialize variables (e.g., int sum = 0;). If you leave it blank, C assigns random "garbage" memory values and ruins your math
 
 ## 4. Input & Output Functions
 To ask a question or input an integer:
+* [TRAP] Always use the address-of operator (&) inside scanf for standard variables. Forgetting it causes a silent runtime crash
 ```c
 int num;
 printf("Enter a number: ");
@@ -64,12 +66,14 @@ printf("You've entered:");
 putchar(character);
 ```
 
-## 5. Arithmetic & Math Operators
-* ASCII value of A is 65 and a is 97. Difference is 32.
+## 5. Arithmetic Operator
+* ASCII value of A is 65 and a is 97. Difference is 32. [TRAP] Do not use library functions for case conversion
 
-* Use %x for hex and %o for octal.
+* Use %x for hex and %o for octal
 
-* % is for leftover (modulus).
+* % is for leftover (modulus)
+
+* [TRAP] Integer Division: If you divide int by int (5/2), C drops the decimal and gives 2. Make one a float (5.0/2) to get 2.5
 
 * Absolute: abs
 
@@ -90,6 +94,7 @@ Upper integer: ceil
 Lower integer: floor
 
 ## 6. Assignment & Unary Operators
+[TRAP]
 x+=5 is the same as x=x+5 (same logic for -, *, /, %)
 
 ++x to increment x by one BEFORE it is used
@@ -106,11 +111,21 @@ x++ to increment x by one AFTER it is used (same for decrement)
 && = Logical AND
 || = Logical OR
 !  = Logical NOT
+* [TRAP] Short-Circuiting: In (A && B), if A is False, C skips B entirely. In (A || B), if A is True, C skips B entirely
 
 ## 9. Switch
 * Expression used in switch must be inegral type
-* Until a break statement is reached all the case will be execute
+* [TRAP] Until a break statement is reached all the case will be execute
 * Default block can be placed anywhere
 * the statement written above cases are never executed
+
+## 10.Bitwise Operator
+& = Bitwise AND
+| = Bitwise OR
+^ = Bitwise ExOR
+~ = Bitwise NOT
+<< = Left shift
+>> = Right shift
+
 
 
