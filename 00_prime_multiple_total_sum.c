@@ -2,7 +2,7 @@
 #include <math.h>
 int main()
 {
-    int i, num, count = 0, total = 0;
+    int i, num, count = 0, total = 0, sum = 0;
     for (num = 1; num <= 100; num++)
     {
         count = 0;
@@ -25,7 +25,9 @@ int main()
         {
             printf("%d is a prime number\n", num);
             total++;
+            sum = sum + num;
         }
     }
-    printf("Total prime numbers:%d", total);
+    printf("Total prime numbers:%d\n", total);
+    printf("Sum of all prime numbers:%d", sum);
 }
