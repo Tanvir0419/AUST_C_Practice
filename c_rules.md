@@ -116,6 +116,8 @@ putchar(character);
 
 ## 11.Loop
 - [Trap] dont confuse between ; and ' inside loop function. always use ;
+- Palindrome number= result same as main number
+- Armstrong number = result each digit^3 same as main number
 - for continuous lopp use while(1). 1 means true.
 ```c
 - for
@@ -163,6 +165,7 @@ starting:
 if(i<5)
     goto starting;
 ```
+
 
 
 
